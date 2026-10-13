@@ -1,0 +1,25 @@
+# Original OSF records and derived participant-level data (never commit)
+data/raw/*
+!data/raw/README.txt
+data/derived/*
+!data/derived/README.txt
+
+# Generated outputs
+results/*
+!results/README.txt
+
+# Local environments, caches, editor files and logs
+__pycache__/
+*.py[cod]
+*.log
+.Rhistory
+.RData
+.Rproj.user/
+.venv/
+venv/
+.conda/
+.env
+.env.*
+.DS_Store
+.vscode/
+.idea/
